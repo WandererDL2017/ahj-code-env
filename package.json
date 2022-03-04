@@ -48,6 +48,7 @@
   },
   "homepage": "https://github.com/WandererDL2017/ahj-code-env#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "jest": "^27.5.1"
   }
 }
