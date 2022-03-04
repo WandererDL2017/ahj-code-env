@@ -32,6 +32,7 @@
     "file-loader": "^6.2.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.1",
+    "jest": "^27.5.1",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^1.3.3",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
@@ -48,7 +49,6 @@
   },
   "homepage": "https://github.com/WandererDL2017/ahj-code-env#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "jest": "^27.5.1"
+    "babel-cli": "^6.26.0"
   }
 }
