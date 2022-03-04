@@ -13,9 +13,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: 'babel-loader',
       },
       {
         test: /\.html$/,
@@ -35,6 +33,10 @@ module.exports = {
         test: /\.svg$/,
         type: 'asset/resource',
       },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
+    },
     ],
   },
   plugins: [
